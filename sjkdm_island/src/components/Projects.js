@@ -3,7 +3,8 @@ import Project from './ProjectItem';
 import project_list from '../data/projects.json';
 import {
     Container,
-    Grid
+    Grid,
+    Box
 } from '@material-ui/core';
 import axios from 'axios';
 
@@ -19,12 +20,6 @@ const Projects = (props) => {
         fetchProjects();
     }, []);
     
-    // full_name
-    // html_url
-    // id
-    // description
-
-
     return (
         <div>
             <Container>
@@ -32,12 +27,14 @@ const Projects = (props) => {
                         {
                             projects.map((project) => (
                                 <Grid item lg={4} md={6} sm={12} key={project.id}>
-                                    <Project 
-                                        title = {project.title} 
-                                        description = {project.description} 
-                                        link = {project.link}
-                                        tags = {project.tags}
-                                    />
+                                    <Box>
+                                        <Project 
+                                            title = {project.title} 
+                                            description = {project.description} 
+                                            link = {project.link}
+                                            tags = {project.tags}
+                                        />
+                                    </Box>
                                 </Grid>
                             ))
                         }
