@@ -20,7 +20,18 @@ import '../assets/css/Navigation.css';
 const useStyles = makeStyles(theme => ({
     // offset: theme.mixins.toolbar
     root: {
-        marginBottom: "40px"
+        marginBottom: "40px",
+        backgroundColor: "#121414"
+    },
+    title: {
+        flexGrow: 1,
+        fontFamily: "UnifrakturMaguntia",
+        fontSize: "30px"
+    },
+    link: {
+        paddingRight: "15px",
+        paddingLeft: "15px",
+        color: "white"
     }
 }));
 
@@ -29,20 +40,21 @@ const Navigation = (props) => {
     const classes = useStyles();
     return (
         <div>
-            <AppBar position="static" color="primary" className={classes.root}>
+            <AppBar position="static" className={classes.root}>
                 <Toolbar>
                     <Typography 
                         variant="h5"
-                    > Sjukdom Island </Typography>
+                        className={classes.title}
+                    > Sjukdom Castle </Typography>
                 
                 <div style={{display: "flex"}}>
                     <Link to="/projects">
-                        <Typography>
+                        <Typography className={classes.link}>
                             Projects
                         </Typography>
                     </Link>
                     <Link to="/about">
-                        <Typography>
+                        <Typography className={classes.link}>
                             About
                         </Typography>
                     </Link>
