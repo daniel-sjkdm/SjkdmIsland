@@ -1,0 +1,25 @@
+{
+    "title": "Interests",
+    "content": [
+        {
+            "skill": "Artificial Intelligence",
+            "img": "../assets/img/brain.svg"
+        },
+        {
+            "skill": "Backend",
+            "img": "../assets/img/server.svg"
+        },
+        {
+            "skill": "Frontend",
+            "img": "../assets/img/ux.svg"
+        },
+        {
+            "skill": "Databases",
+            "img": "../assets/img/database.svg"
+        },
+        {
+            "skill": "GNU/Linux",
+            "img": "../assets/img/computer.svg"
+        }
+    ]
+}

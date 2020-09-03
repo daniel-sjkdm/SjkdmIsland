@@ -1,0 +1,29 @@
+{
+    "title": "Technical Skills",
+        "content": [
+        {
+            "skill": "Python",
+            "level": 4
+        },
+        {
+            "skill": "Postgresql",
+            "level": 4
+        },
+        {
+            "skill": "Linux",
+            "level": 4
+        },
+        {
+            "skill": "Javascript",
+            "level": 3
+        },
+        {
+            "skill": "React.js",
+            "level": 3
+        },
+        {
+            "skill": "JQuery",
+            "level": 3
+        } 
+    ]
+}
