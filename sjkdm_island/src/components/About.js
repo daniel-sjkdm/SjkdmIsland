@@ -5,6 +5,7 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import SubjectIcon from '@material-ui/icons/Subject';
 import { makeStyles } from '@material-ui/styles';
+import people from '../assets/img/people.svg'
 
 
 const useStyles = makeStyles({
@@ -12,8 +13,9 @@ const useStyles = makeStyles({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "white",
-        },
+        flexDirection: "column",
+        // backgroundColor: "#212325",
+    },
     text: {
         width: "450px",
         marginBottom: "20px",
@@ -26,7 +28,11 @@ const useStyles = makeStyles({
         backgroundColor: "#4DD779"
     },
     form: {
-        backgroundColor: "white",
+        // backgroundColor: "#212325",
+        paddingTop: "20px",
+        paddingBottom: "20px",
+        paddingLeft: "10px",
+        paddingRight: "10px"
     }
     
     // title: {
@@ -44,8 +50,8 @@ const About = (props) => {
 
 
     return (
-        <Container>
             <div className={classes.root}>
+                <img src={people} width={150} height={150} />
                 <form onSubmit={() => onSubmit()} className={classes.form}> 
                     <TextField
                         label="Email"
@@ -93,7 +99,6 @@ const About = (props) => {
                     </Button>
                 </form>
             </div>
-        </Container>
     )
 }
 
