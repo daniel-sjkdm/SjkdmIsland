@@ -17,9 +17,6 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: "-30px 20px 20px rgba(0, 0, 0, 0.3)",
         border: "1px solid #4DD779",
         backgroundColor: "#121414",
-        "&hover": {
-            backgroundColor: "red"
-        }
     },
     cardHeader: {
         fontFamily: "Space Mono, mono space",
@@ -46,9 +43,10 @@ const ProjectItem = ({title, description, link, tags}) => {
                         fontFamily: "Space Mono, mono space"
                     }}> { title } </Typography>}
                     className={classes.cardHeader}/>
-                <CardContent>
-                    <Typography variant="body2" className={classes.cardBody}> 
-                        <p style={{color: "#4DD779"}}> sjukdom@castle $ ./project.sh   </p> { description } 
+                <CardContent> 
+                        <p style={{color: "#4DD779", fontFamily: "Space Mono, mono space"}}> sjukdom@castle $ ./project.sh   </p> 
+                        <Typography variant="body2" className={classes.cardBody}>
+                        { description } 
                         <br/>
                         <br/>
                         Tags:
@@ -78,5 +76,3 @@ const ProjectItem = ({title, description, link, tags}) => {
 
 
 export default ProjectItem;
-
-//Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
