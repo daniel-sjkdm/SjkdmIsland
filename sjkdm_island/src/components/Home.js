@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     },
     title: {
         fontFamily: "Libre Baskerville, serif",
-        fontSize: "70px",
+        fontSize: "50px",
         color: "white",
         textAlign: "center",
         marginBottom: "30px",
@@ -67,7 +67,6 @@ const Home = (props) => {
                         and understanding new technologies and improving my skills                   <br/>
                         to keep building this castle the best way I can.                             <br/>
                     </Typography>
-
                 </div>
                 <Grid container spacing={3}>
                     <Grid item lg={6} md={6} xs={12}>

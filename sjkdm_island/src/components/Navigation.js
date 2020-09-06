@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
     title: {
         flexGrow: 1,
         fontFamily: "UnifrakturMaguntia",
-        fontSize: "30px"
+        fontSize: "25px"
     },
     link: {
         paddingRight: "15px",
@@ -29,21 +29,20 @@ const Navigation = (props) => {
             <AppBar position="static" className={classes.root}>
                 <Toolbar>
                     <Typography 
-                        variant="h5"
                         className={classes.title}
                     > Sjukdom Castle </Typography>
                 <div style={{display: "flex"}}>
-                    <Link to="/">
+                    <Link to="/SjukdomCastle">
                         <Typography className={classes.link}>
                             Home
                         </Typography>
                     </Link>
-                    <Link to="/projects">
+                    <Link to="/SjukdomCastle/projects">
                         <Typography className={classes.link}>
                             Projects
                         </Typography>
                     </Link>
-                    <Link to="/about">
+                    <Link to="/SjukdomCastle/about">
                         <Typography className={classes.link}>
                             About
                         </Typography>
