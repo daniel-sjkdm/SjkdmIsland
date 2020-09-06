@@ -24,9 +24,9 @@ function App() {
         <Navigation />
         <Container>
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/about" component={About} />
+            <Route path="/SjukdomCastle" exact component={Home} />
+            <Route path="/SjukdomCastle/projects" component={Projects} />
+            <Route path="/SjukdomCastle/about" component={About} />
           </Switch>
         </Container>
         <Footer />
