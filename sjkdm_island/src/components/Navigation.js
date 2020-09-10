@@ -61,7 +61,7 @@ const Navigation = (props) => {
                 <Toolbar>
                     <Typography className={classes.title}> Sjukdom Castle </Typography>
                 <div style={{display: "flex"}}>
-                    <Hidden smDown>
+                    <Hidden xsDown>
                         <Link to="/SjukdomCastle" className={classes.link}>
                             <Typography> Home </Typography>
                         </Link>
