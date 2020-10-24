@@ -35,7 +35,7 @@ const routes = [
     },
     {
         "name": "Contact",
-        "url": "/SjukdomCastle/about",
+        "url": "/SjukdomCastle/contact",
         "icon": <ContactMailIcon style={{color:"white"}}/>
     }
 ]
