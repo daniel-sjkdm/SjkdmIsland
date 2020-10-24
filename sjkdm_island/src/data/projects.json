@@ -4,7 +4,8 @@
         "title": "Django NLT",
         "description": "Django web app with basic natural language processing using nltk. Deployed to Heroku",
         "tags": ["django", "rest api", "nltk", "nlp", "heroku"],
-        "url": "https://github.com/daniel-sjkdm/djangonltk"
+        "url": "https://github.com/daniel-sjkdm/djangonltk",
+        "website": "https://djangonltk.herokuapp.com"
     },
     {
         "id": 2,
