@@ -1,8 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Sjukdom Castle",
+  "name": "Sjukdom Castle",
   "icons": [
-    
+    "src": "favicon.ico"
   ],
   "start_url": ".",
   "display": "standalone",
