@@ -53,7 +53,7 @@ const SkillItem = ({skills, kind}) => {
                                 { 
                                     kind === "interests" ? (
                                             <ListItemAvatar>
-                                                <img src={interests_icon[index]} width={37} height={37}/>
+                                                <img src={interests_icon[index]} width={37} height={37} alt=""/>
                                             </ListItemAvatar>
                                     ) : "" 
                                 }

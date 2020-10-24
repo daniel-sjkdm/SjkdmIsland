@@ -27,6 +27,7 @@ const Projects = (props) => {
                                         description = {project.description} 
                                         url = {project.url}
                                         tags = {project.tags}
+                                        website = {project.website? project.website : ""}
                                     />
                                 </Box>
                             </Grid>
