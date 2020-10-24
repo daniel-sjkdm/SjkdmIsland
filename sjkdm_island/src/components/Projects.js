@@ -25,7 +25,7 @@ const Projects = (props) => {
                                     <Project 
                                         title = {project.title} 
                                         description = {project.description} 
-                                        link = {project.link}
+                                        url = {project.url}
                                         tags = {project.tags}
                                     />
                                 </Box>
