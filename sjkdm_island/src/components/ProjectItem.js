@@ -17,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: "-30px 20px 20px rgba(0, 0, 0, 0.3)",
         border: "1px solid #4DD779",
         backgroundColor: "#121414",
+        display: "flex",
+        flexDirection: "column",
+        alignContent: "center",
+        justifyContent: "space-between"
     },
     cardHeader: {
         fontFamily: "Space Mono, mono space",
@@ -32,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const ProjectItem = ({title, description, link, tags}) => {
+const ProjectItem = ({title, description, url, tags}) => {
     const classes = useStyles();
     return (
         <div>
@@ -61,12 +65,18 @@ const ProjectItem = ({title, description, link, tags}) => {
                     }
                     </Typography>
                 </CardContent>
-                <CardActions>
+                <CardActions style={{
+                    display: "flex",
+                    alignContent: "center",
+                    alignItems: "center",
+                    justifyContent: "center"
+                }}>
                     <Button 
                         size="small"
                         variant="contained" 
-                        color="inherit"
-                        href={link}
+                        color="primary"
+                        href={url}
+                        target="_blank"
                     > View </Button>
                 </CardActions>
             </Card>
