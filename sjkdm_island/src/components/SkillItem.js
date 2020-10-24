@@ -1,19 +1,33 @@
 import React from 'react';
-import { Paper, List, ListItem, ListItemText, ListItemAvatar, Avatar, Typography } from '@material-ui/core';
+import { Paper, List, ListItem, ListItemText, ListItemAvatar, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import StarIcon from '@material-ui/icons/Star';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
+import AI from '../assets/img/brain.svg';
+import Backend from '../assets/img/server.svg';
+import Frontend from '../assets/img/ux.svg';
+import Databases from '../assets/img/database.svg';
+import Linux from '../assets/img/computer.svg';
+
+
+const interests_icon = [
+    AI, 
+    Backend,
+    Frontend,
+    Databases,
+    Linux
+];
 
 
 const useStyles = makeStyles({
     title: {
-        fontFamily: "Sans Serif",
+        fontFamily: "UnifrakturMaguntia",
         textAlign: "center",
         color: "white",
         paddingTop: "20px"
     },
     item: {
-        color: "#4DD779", 
+        color: "white", 
         fontFamily: "Space Mono, mono space"
     },
     paper: {
@@ -26,7 +40,7 @@ const useStyles = makeStyles({
 
 
 
-const SkillItem = ({skills}) => {
+const SkillItem = ({skills, kind}) => {
     const classes = useStyles();
     return (
         <div>
@@ -37,12 +51,10 @@ const SkillItem = ({skills}) => {
                         skills.content.map((skill, index) => (
                             <ListItem key={index}>
                                 { 
-                                    skill.img? (
-                                        <ListItemAvatar>
-                                            <Avatar>
-                                                <img src={skill.img} alt=""/>
-                                            </Avatar>
-                                        </ListItemAvatar>
+                                    kind === "interests" ? (
+                                            <ListItemAvatar>
+                                                <img src={interests_icon[index]} width={37} height={37}/>
+                                            </ListItemAvatar>
                                     ) : "" 
                                 }
                                 <ListItemText primary={<Typography className={classes.item}> {skill.skill} </Typography>} disableTypography={true} />
