@@ -1,24 +1,29 @@
 {
   "files": {
     "main.css": "/SjukdomCastle/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/SjukdomCastle/static/js/main.c002ac1c.chunk.js",
-    "main.js.map": "/SjukdomCastle/static/js/main.c002ac1c.chunk.js.map",
+    "main.js": "/SjukdomCastle/static/js/main.02ef389d.chunk.js",
+    "main.js.map": "/SjukdomCastle/static/js/main.02ef389d.chunk.js.map",
     "runtime-main.js": "/SjukdomCastle/static/js/runtime-main.9c6de366.js",
     "runtime-main.js.map": "/SjukdomCastle/static/js/runtime-main.9c6de366.js.map",
-    "static/js/2.f55eef05.chunk.js": "/SjukdomCastle/static/js/2.f55eef05.chunk.js",
-    "static/js/2.f55eef05.chunk.js.map": "/SjukdomCastle/static/js/2.f55eef05.chunk.js.map",
+    "static/js/2.4c970490.chunk.js": "/SjukdomCastle/static/js/2.4c970490.chunk.js",
+    "static/js/2.4c970490.chunk.js.map": "/SjukdomCastle/static/js/2.4c970490.chunk.js.map",
     "index.html": "/SjukdomCastle/index.html",
-    "precache-manifest.58426a197262fa92b067d7126877cf0c.js": "/SjukdomCastle/precache-manifest.58426a197262fa92b067d7126877cf0c.js",
+    "precache-manifest.4054be0cf62c599df164e9e3b510626e.js": "/SjukdomCastle/precache-manifest.4054be0cf62c599df164e9e3b510626e.js",
     "service-worker.js": "/SjukdomCastle/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/SjukdomCastle/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.f55eef05.chunk.js.LICENSE.txt": "/SjukdomCastle/static/js/2.f55eef05.chunk.js.LICENSE.txt",
+    "static/js/2.4c970490.chunk.js.LICENSE.txt": "/SjukdomCastle/static/js/2.4c970490.chunk.js.LICENSE.txt",
+    "static/media/brain.svg": "/SjukdomCastle/static/media/brain.1a503fc3.svg",
+    "static/media/computer.svg": "/SjukdomCastle/static/media/computer.41351471.svg",
     "static/media/cultures.svg": "/SjukdomCastle/static/media/cultures.66151fee.svg",
-    "static/media/people.svg": "/SjukdomCastle/static/media/people.d9c36406.svg"
+    "static/media/database.svg": "/SjukdomCastle/static/media/database.ef7dec09.svg",
+    "static/media/people.svg": "/SjukdomCastle/static/media/people.d9c36406.svg",
+    "static/media/server.svg": "/SjukdomCastle/static/media/server.c186eb93.svg",
+    "static/media/ux.svg": "/SjukdomCastle/static/media/ux.454618b0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9c6de366.js",
-    "static/js/2.f55eef05.chunk.js",
+    "static/js/2.4c970490.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.c002ac1c.chunk.js"
+    "static/js/main.02ef389d.chunk.js"
   ]
 }
