@@ -7,6 +7,7 @@ import SideBarList from './SideBarList';
 
 
 
+
 const useStyles = makeStyles(theme => ({
     root: {
         marginBottom: "40px",
@@ -15,7 +16,10 @@ const useStyles = makeStyles(theme => ({
     title: {
         flexGrow: 1,
         fontFamily: "UnifrakturMaguntia",
-        fontSize: "25px"
+        fontSize: "25px",
+        "&:hover": {
+            color: "#4DD779"
+        }
     },
     link: {
         paddingRight: "15px",
@@ -23,6 +27,13 @@ const useStyles = makeStyles(theme => ({
         color: "white",
         textDecoration: "none",
     },
+    link_title: {
+        fontFamily: "UnifrakturMaguntia",
+        fontSize: "22px",
+        "&:hover": {
+            color: "#4DD779"
+        }
+    }
 }));
 
 
@@ -63,13 +74,13 @@ const Navigation = (props) => {
                 <div style={{display: "flex"}}>
                     <Hidden xsDown>
                         <Link to="/SjukdomCastle" className={classes.link}>
-                            <Typography> Home </Typography>
+                            <Typography className={classes.link_title}> Home </Typography>
                         </Link>
                         <Link to="/SjukdomCastle/projects" className={classes.link}>
-                            <Typography> Projects </Typography>
+                            <Typography className={classes.link_title}> Projects </Typography>
                         </Link>
-                        <Link to="/SjukdomCastle/about" className={classes.link}> 
-                            <Typography> About </Typography>
+                        <Link to="/SjukdomCastle/contact" className={classes.link}> 
+                            <Typography className={classes.link_title}> Contact </Typography>
                         </Link>
                     </Hidden>
                     <Hidden smUp>
