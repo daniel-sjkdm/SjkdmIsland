@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SjukdomCastle/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/SjukdomCastle/static/js/main.02ef389d.chunk.js",
-    "main.js.map": "/SjukdomCastle/static/js/main.02ef389d.chunk.js.map",
+    "main.js": "/SjukdomCastle/static/js/main.c08aa92a.chunk.js",
+    "main.js.map": "/SjukdomCastle/static/js/main.c08aa92a.chunk.js.map",
     "runtime-main.js": "/SjukdomCastle/static/js/runtime-main.9c6de366.js",
     "runtime-main.js.map": "/SjukdomCastle/static/js/runtime-main.9c6de366.js.map",
     "static/js/2.4c970490.chunk.js": "/SjukdomCastle/static/js/2.4c970490.chunk.js",
     "static/js/2.4c970490.chunk.js.map": "/SjukdomCastle/static/js/2.4c970490.chunk.js.map",
     "index.html": "/SjukdomCastle/index.html",
-    "precache-manifest.4054be0cf62c599df164e9e3b510626e.js": "/SjukdomCastle/precache-manifest.4054be0cf62c599df164e9e3b510626e.js",
+    "precache-manifest.f4bdb836f4dfd0b79bf0132061de8d0e.js": "/SjukdomCastle/precache-manifest.f4bdb836f4dfd0b79bf0132061de8d0e.js",
     "service-worker.js": "/SjukdomCastle/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/SjukdomCastle/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.4c970490.chunk.js.LICENSE.txt": "/SjukdomCastle/static/js/2.4c970490.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.9c6de366.js",
     "static/js/2.4c970490.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.02ef389d.chunk.js"
+    "static/js/main.c08aa92a.chunk.js"
   ]
 }
