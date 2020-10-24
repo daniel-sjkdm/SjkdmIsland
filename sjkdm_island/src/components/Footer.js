@@ -9,6 +9,7 @@ const useStyles = makeStyles({
         marginTop: "50px",
     },
     content: {
+        fontFamily: "Space Mono, mono space",
         textAlign: "center",
         color: "white",
         marginTop: "30px"
@@ -18,6 +19,12 @@ const useStyles = makeStyles({
         width: "40px",
         height: "40px",
         marginTop: "10px"
+    },
+    url: { 
+        color: "white", 
+        fontSize: "15px", 
+        fontFamily: "Space Mono, mono space", 
+        textDecoration: "none"
     }
 });
 
@@ -42,7 +49,7 @@ const Footer = (props) => {
                             <ListItemText 
                                 disableTypography={true} 
                                 primary={
-                                    <a style={{ color: "white", fontSize: "15px" }} href="https://reactjs.org/" rel="noopener noreferrer" target="_blank"> React.js </a>
+                                    <a className={classes.url} href="https://reactjs.org/" rel="noopener noreferrer" target="_blank"> React.js </a>
                                 } 
                                 style={{textAlign: "center"}}
                             />
@@ -51,7 +58,7 @@ const Footer = (props) => {
                             <ListItemText 
                                 disableTypography={true} 
                                 primary={
-                                    <a style={{ color: "white", fontSize: "15px" }} href="https://material-ui.com/" target="_blank" rel="noopener noreferrer"> Material-UI </a>
+                                    <a className={classes.url} href="https://material-ui.com/" target="_blank" rel="noopener noreferrer"> Material-UI </a>
                                 }
                                 style={{textAlign: "center"}}
                             />
@@ -60,7 +67,7 @@ const Footer = (props) => {
                             <ListItemText 
                                 disableTypography={true} 
                                 primary={
-                                    <a style={{ color: "white", fontSize: "15px" }} href="https://www.emailjs.com/" target="_blank" rel="noopener noreferrer"> EmailJS </a>
+                                    <a className={classes.url} href="https://www.emailjs.com/" target="_blank" rel="noopener noreferrer"> EmailJS </a>
                                 }
                                 style={{textAlign: "center"}}
                             />
@@ -68,7 +75,7 @@ const Footer = (props) => {
                     </List>
                 </Grid>    
                 <Grid item lg={12} md={12} xs={12}>
-                    <Typography className={classes.content}>
+                    <Typography className={classes.content} style={{ fontSize: "12px" }}>
                         Icons made by 
                         <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="noopener noreferrer" title="Freepik" style={{ color: "#4DD779" }}> Freepik </a> from <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#4DD779" }} title="Flaticon"> www.flaticon.com</a>
                     </Typography>
