@@ -1,51 +1,58 @@
 [
     {
         "id": 1,
-        "title": "Digit Recognition with JS",
-        "description": "Basic digit recognition application using tensorflow.js and react.js",
-        "tags": ["react", "machine learning", "vision"],
-        "url": ""
+        "title": "Django NLT",
+        "description": "Django web app with basic natural language processing using nltk. Deployed to Heroku",
+        "tags": ["django", "rest api", "nltk", "nlp", "heroku"],
+        "url": "https://github.com/daniel-sjkdm/djangonltk"
     },
     {
         "id": 2,
-        "title": "Word to Vect",
-        "description": "Implementation of the algorithm word2vect using tensorflow.js and react.js",
-        "tags": ["react", "machine learning", "nlp"],
-        "url": ""
+        "title": "Vaishnabot",
+        "description": "Telegram bot to fetch Vaishnavism events and send them as pdf documents. Deployed to Heroku",
+        "tags": ["python", "telegram", "heroku"],
+        "url": "https://github.com/daniel-sjkdm/VaishnavismNotifyTBot"
     },
     {
         "id": 3,
-        "title": "Word to Vect",
-        "description": "Implementation of the algorithm word2vect using numpy and jupyter notebooks",
-        "tags": ["python", "flask", "machine learning"],
-        "url": ""
+        "title": "Vaishnavism scrapper",
+        "description": "Web scrapper that fetchs vaishnavism events and store them at a postgresql database",
+        "tags": ["python", "web scrapping", "scrapy", "postgresql"],
+        "url": "https://github.com/daniel-sjkdm/VaishnavismScrapper"
     },
     {
         "id": 4,
         "title": "Store database",
-        "description": "Modeling a store database with postgresql as RDBMS and implementing advanced features such as stored procedures, triggers, views and backups",
-        "tags": ["postgresql", "flask", "python"],
-        "url": ""
+        "description": "Modeling a store database with postgresql as RDBMS and implementing advanced features such as stored procedures",
+        "tags": ["postgresql"],
+        "url": "https://github.com/daniel-sjkdm/StoreDatabase"
     },
     {
         "id": 5,
-        "title": "Hospital System",
-        "description": "A webpage that models a hospital system by implementing a database, email notifications, pdf autoreporting and chart statistics",
-        "tags": ["python", "django", "javascript", "postgresql"],
-        "url": ""
+        "title": "Google Drive Backup CLI",
+        "description": "Using the Google Drive API and watchdogs to synchronize the local filesystem to the cloud everytime an event is detected",
+        "tags": ["python", "api", "watchdog"],
+        "url": "https://github.com/daniel-sjkdm/Gapy"
     },
     {
         "id": 6,
-        "title": "Store database",
-        "description": "Modeling a store database with postgresql as RDBMS and implementing advanced features such as stored procedures, triggers, views and backups",
-        "tags": ["postgresql", "flask", "python"],
-        "url": ""
+        "title": "Pandacovid",
+        "description": "Coronavirus data analysis using pandas and seaborn to display world wide statistics",
+        "tags": ["python", "pandas", "seaborn"],
+        "url": "https://github.com/daniel-sjkdm/PandaCovid"
     },
     {
         "id": 7,
-        "title": "Backup tool",
-        "description": "Automatic CLI tool to make backups for a target directory and uploading the data to dropbox",
-        "tags": ["python", "dropbox"],
-        "url": ""
+        "title": "Consumming APIs",
+        "description": "Consuming three APIs: reddit, spotify and world statistics with python to make http requests and fetch data",
+        "tags": ["python", "rest api"],
+        "url": "https://github.com/daniel-sjkdm/ConsumingAPIs"
+    },
+    {
+        "id": 9,
+        "title": "Store rest api",
+        "description": "Creation of a REST API to make http requests using a JWT token with django",
+        "tags": ["django", "jwt", "rest api", "heroku"],
+        "url": "https://github.com/daniel-sjkdm/django-rest-api-heroku"
     }
 ]
