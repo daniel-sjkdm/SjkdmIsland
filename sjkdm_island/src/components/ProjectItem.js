@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const ProjectItem = ({title, description, url, tags}) => {
+const ProjectItem = ({title, description, url, tags, website}) => {
     const classes = useStyles();
     return (
         <div>
@@ -71,13 +71,24 @@ const ProjectItem = ({title, description, url, tags}) => {
                     alignItems: "center",
                     justifyContent: "center"
                 }}>
+                    {
+                        website !== "" ? (
+                            <Button 
+                                size="small"
+                                variant="contained" 
+                                color="primary"
+                                href={website}
+                                target="_blank"
+                            > Website </Button>
+                        ) : ""
+                    }
                     <Button 
                         size="small"
                         variant="contained" 
                         color="primary"
                         href={url}
                         target="_blank"
-                    > View </Button>
+                    > Github </Button>
                 </CardActions>
             </Card>
         </div>
