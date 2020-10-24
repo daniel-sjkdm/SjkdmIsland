@@ -21,22 +21,22 @@ const useStyles = makeStyles({
         paddingRight: "15px",
     },
     title: {
-        fontFamily: "Libre Baskerville, serif",
+        fontFamily: "UnifrakturMaguntia",
         fontSize: "50px",
         color: "white",
         textAlign: "center",
         marginBottom: "30px",
     },
     subtitle: {
-        fontFamily: "Libre Baskerville, serif",
-        fontSize: "20px",
+        fontFamily: "Space Mono, mono space",
+        fontSize: "18px",
         color: "white",
         textAlign: "center",
         marginBottom: "50px"
     },
     description: {
-        fontFamily: "Libre Baskerville, serif",
-        fontSize: "18px",
+        fontFamily: "Space Mono, mono space",
+        fontSize: "17px",
         color: "white",
         textAlign: "center",
         marginTop: "50px",
@@ -63,17 +63,19 @@ const Home = (props) => {
                     </Typography>
                     <CastleIcon />
                     <Typography variant="body2" className={classes.description} >
-                        I'm a 25 years old software developer from Mexico interested in learning     <br/>
-                        and understanding new technologies and improving my skills                   <br/>
-                        to keep building this castle the best way I can.                             <br/>
+                        I'm a 25 years old software developer from Mexico interested in learning     
+                        and understanding <br/> backend development, databases and machine learning, and of course
+                        a little bit of front end. <br/> <br/>
+                        My main skill is to be an autodidact and I'm always curious on how things work  <br/>
+                        from scratch and that's why <br/> I wrote this website! <br/>
                     </Typography>
                 </div>
                 <Grid container spacing={3}>
                     <Grid item lg={6} md={6} xs={12}>
-                        <SkillItem skills={interestSkills} />
+                        <SkillItem skills={interestSkills} kind="interests"/>
                     </Grid>
                     <Grid item lg={6} md={6} xs={12}>
-                        <SkillItem skills={techSkills} />
+                        <SkillItem skills={techSkills} kind="tech" />
                     </Grid>
                 </Grid>
             </div>
