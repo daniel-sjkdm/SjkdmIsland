@@ -26,7 +26,7 @@ function App() {
           <Switch>
             <Route path="/SjukdomCastle" exact component={Home} />
             <Route path="/SjukdomCastle/projects" component={Projects} />
-            <Route path="/SjukdomCastle/about" component={About} />
+            <Route path="/SjukdomCastle/contact" component={About} />
           </Switch>
         </Container>
         <Footer />
