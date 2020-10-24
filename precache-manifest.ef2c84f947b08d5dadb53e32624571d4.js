@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e14e0dd06252bd4a055038d593fbb21b",
+    "revision": "8dec3e27397669bdbec4096d86d519e3",
     "url": "/SjukdomCastle/index.html"
   },
   {
-    "revision": "7644952b2f1fea214c53",
+    "revision": "1356e863cf96ffe01537",
     "url": "/SjukdomCastle/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SjukdomCastle/static/js/2.4c970490.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7644952b2f1fea214c53",
-    "url": "/SjukdomCastle/static/js/main.9fdb778d.chunk.js"
+    "revision": "1356e863cf96ffe01537",
+    "url": "/SjukdomCastle/static/js/main.e7be8c41.chunk.js"
   },
   {
     "revision": "33e7b10bf7d3366042b1",
